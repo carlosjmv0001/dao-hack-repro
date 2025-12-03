@@ -36,14 +36,21 @@ source /home/codespace/.bashrc
 foundryup
 ```
 
-### 2. Compilação
-Para baixar as dependências e compilar os contratos:
+### 2. Instalação de Dependências
+Para baixar as dependências necessárias:
+
+```bash
+forge install foundry-rs/forge-std
+```
+
+### 3. Compilação
+Para compilar os contratos:
 
 ```bash
 forge build
 ```
 
-### 3. Reproduzindo o Ataque
+### 4. Reproduzindo o Ataque
 Para rodar o teste que simula o roubo dos fundos:
 
 ```bash
